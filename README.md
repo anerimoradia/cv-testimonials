@@ -13,12 +13,19 @@ A responsive testimonial card component built using HTML and CSS. This project s
 
 ## 📂 Folder Structure
 ├── index.html 
+
 ├── styles/ 
+
 │   └── style.css 
+
 ├── images/ 
+
 │   ├── profile1.png 
-│   ├── profile2.jpeg 
+
+│   ├── profile2.jpeg
+
 │   └── profile3.jpg 
+
 └── README.md
 
 ## 🚀 Getting Started

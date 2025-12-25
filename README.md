@@ -33,6 +33,9 @@ To run this project locally:
 
 Inspired by the testimonial layout from [roadmap.sh](https://roadmap.sh/projects/testimonial-cards) and styled to match real-world UI patterns.
 
+## Shareable Link
+https://roadmap.sh/projects/testimonial-cards/solutions?u=66c52a3b34a9226f385ab651
+
 
 
 

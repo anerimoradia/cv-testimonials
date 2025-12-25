@@ -1,0 +1,143 @@
+/* ------------------------------
+   Parent Wrapper (like screenshot)
+------------------------------ */
+.testimonial-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #e5e5e5;
+}
+
+/* ------------------------------
+   Grid Layout
+------------------------------ */
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  justify-items: center;
+}
+
+/* ------------------------------
+   Square Cards (first two)
+------------------------------ */
+.testimonial-card.square {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ------------------------------
+   Dark Mode Card
+------------------------------ */
+.testimonial-card.dark {
+  background: #1a1a1a;
+  color: #f1f1f1;
+  border: 1px solid #333;
+}
+
+.testimonial-card.dark blockquote p {
+  color: #e0e0e0;
+}
+
+.testimonial-card.dark footer span {
+  color: #b5b5b5;
+}
+
+/* ------------------------------
+   Base Card Styling
+------------------------------ */
+.testimonial-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ------------------------------
+   Wide Bottom Card (carousel)
+------------------------------ */
+.testimonial-card.wide {
+  grid-column: span 2;
+  width: 100%;
+}
+
+/* ------------------------------
+   Profile Image
+------------------------------ */
+.profile-pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ------------------------------
+   Blockquote
+------------------------------ */
+blockquote {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+blockquote p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+blockquote footer strong {
+  font-size: 0.95rem;
+}
+
+blockquote footer span {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* ------------------------------
+   Stars
+------------------------------ */
+.stars {
+  color: #f5b400;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+/* ------------------------------
+   Carousel
+------------------------------ */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.carousel img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.carousel img.active {
+  width: 64px;
+  height: 64px;
+  opacity: 1;
+}
+
+.carousel .arrow {
+  font-size: 1.5rem;
+  color: #999;
+  cursor: pointer;
+}

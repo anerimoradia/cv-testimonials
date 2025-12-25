@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimonials</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonial Cards</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <section id="testimonials">
+    <section class="testimonial-wrapper">
+        <div class="testimonials">
         <h2>What Our People Say</h2>
-        <div class="testimonial-card">
-            <img src="images/profile1.png" alt="Artem Jones" class="profile-pic" />
-            <p>"This service changed my life! Highly recommended."</p>
-            <p>- Alex J.</p>
+            <div class="testimonial-card square">
+                <img src="images/profile1.png" alt="Seo Joon" class="profile-pic" />
+                <p>"This service changed my life! Highly recommended."</p>
+                <p>- Park Seo J</p>
+            </div>
+            <div class="testimonial-card square">
+                <img src="images/profile2.jpeg" alt="Kwon Nara" class="profile-pic" />
+                <p>"Exceptional quality and customer support."</p>
+                <p>- Kwon Nara.</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimonial-card square">
+                <img src="images/profile3.jpg" alt="Lee Byung" class="profile-pic" />
+                <p>"A great team player, highly recommended."</p>
+                <p>- Lee Byung.</p>
+                <div class="stars">★★★★</div>
+            </div>
+            <div class="testimonial-card wide">
+                <div class="carousel">
+                    <div class="arrow">‹</div>
+                    <img src="images/profile1.png" alt="Profile 1">
+                    <img src="images/profile2.jpeg" alt="Profile 2" class="active">
+                    <img src="images/profile3.jpg" alt="Profile 3">
+                    <div class="arrow">›</div>
+                </div>
+            </div>
         </div>
-        <div class="testimonial-card">
-            <img src="images/profile2.jpeg" alt="Jackie Mackle" class="profile-pic" />
-            <p>"Exceptional quality and customer support."</p>
-            <p>- Maria S.</p>
-        </div>
-        <div class="testimonial-card">
-            <img src="images/profile3.jpg" alt="Artem Jones" class="profile-pic" />
-            <p>"A wonderful experience from start to finish."</p>
-            <p>- John D.</p>
-        </div>
+    </section>
 </body>
 </html>
